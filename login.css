@@ -1,0 +1,65 @@
+.username{
+    width: 100px;
+    text-align: center;
+}
+.login-container{
+    margin: 0 auto 0 auto;
+    width:400px;
+    border: rgb(174, 233, 55);
+    box-shadow: 0px 2px 5px rgb(205, 124, 124);
+   padding: 20px;
+   border-radius: 5px;
+   background-color: aliceblue;
+}
+.from-group{
+
+    margin-bottom: 15px ;
+}
+.logincontainer h2{
+    text-align: centre;
+    margin-bottom: 20px;
+    font-family: 'Latin Modern Roman', serif;
+}
+.from-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+body{
+    padding: 20px;
+    background-color: Light yellow ( #feda75 and  254,218,117), orange ( #fa7e1e and  250,126,30), pink ( #d62976 and  214,41,118), purple ( #962fbf and 150,47,191) and blue ( #4f5bd5 and 79,91,213);
+}
+.from-group input[type="text"],
+.form-group input[type="password"],.form-group input[type="datetime"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(224, 48, 9);
+    border-radius: 5px;
+}
+.form-group input[type="number,email"]{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(224, 48, 9);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.form-group input[type="submit"]{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(36, 229, 75);
+    width: 100%;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:hover{
+ background-color: rgb(0, 248, 25);
+}
+.login-options{
+    margin-top: 10px;
+    text-align: center;
+}
+.login-options a{
+    margin-right: 10px;
+}
